@@ -1,0 +1,1 @@
+# lp-bosch-serie8
