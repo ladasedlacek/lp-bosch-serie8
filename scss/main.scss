@@ -1,0 +1,18 @@
+// settings
+@import "settings/mixins";
+@import "settings/colors";
+@import "settings/buttons";
+@import "settings/settings";
+@import "settings/features";
+@import "settings/typography";
+
+// layout
+@import "layout/header";
+@import "layout/mode";
+@import "layout/design";
+@import "layout/footer";
+
+// components
+@import "components/panel";
+@import "components/panel-items";
+@import "components/switcher";

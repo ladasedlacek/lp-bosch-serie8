@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Landing Page Concept</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <style type="text/css">
+            body,
+            html {
+                margin: 0;
+                padding: 0;
+                background: #bae2fc;
+            }
+        </style>
+
+        <div id="layout_switch">
+            <button type="button">M</button>
+            <button type="button">3</button>
+            <button type="button">4</button>
+        </div>
+
+        <div id="testLayout" class="layout-1">
+            <div id="articlePage">
+                <!-- BEFORE UPLOADING REMOVE EVERYTHING ABOVE UP TO THIS POINT -->
+                <div class="lp" id="landingpage">
+                    <!-- header -->
+                    <header class="lpHeader">
+                        <div class="lpWrapper">
+                            <div class="lpHeader__container">
+                                <div class="lpHeader__textWrapper">
+                                    <h1 class="notMoveH1">Nové prémiové pračky a&nbsp;sušičky<br>Bosch Serie 8</h1>
+                                    <h3 class="hdl3">Ideální volba pro péči o vaše prádlo</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+
+                    <!-- mode -->
+                    <section class="lpMode">
+                        <div class="lpWrapper">
+                            <h2 class="hdl2">OFF/ON MÓD</h2>
+                            <div class="lpMode__container">
+                                <div class="lpPanel">
+                                    <p class="perex">zapnout panel</p>
+                                    <div class="lpPanel__circle">&nbsp;</div>
+                                </div>
+
+                                <div class="lpMode__items">
+                                    <div class="lpMode__item lpMode__item--1"><p class="body-1">Programy, které si můžete zvolit (svítí tlumeně)</p><div class="lpMode__line">&nbsp;</div></div>
+                                    <div class="lpMode__item lpMode__item--2"><p class="body-1">Reliéfní symbol zapnutí/vypnutí</p><div class="lpMode__line">&nbsp;</div></div>
+                                    <div class="lpMode__item lpMode__item--3"><p class="body-1">Zvolený program zvýrazněný na LED prstenci</p><div class="lpMode__line">&nbsp;</div></div>
+                                    <div class="lpMode__item lpMode__item--4"><p class="body-1">Zvolený program (svítí jasně)</p><div class="lpMode__line">&nbsp;</div></div>
+                                    <div class="lpMode__item lpMode__item--5"><p class="body-1">Další doplňkové možnosti praní (svítí jasně)</p><div class="lpMode__line">&nbsp;</div></div>
+                                    <div class="lpMode__item lpMode__item--6"><p class="body-1">Doplňkové možnosti praní k zvolení napřímo (svítí tlumeně)</p><div class="lpMode__line">&nbsp;</div></div>
+                                    <div class="lpMode__item lpMode__item--7"><p class="body-1">7segmentový displej</p><div class="lpMode__line">&nbsp;</div></div>
+                                    <div class="lpMode__item lpMode__item--8"><p class="body-1">Zvolená doplňková možnost praní (svítí jasně)</p><div class="lpMode__line">&nbsp;</div></div>
+                                </div>
+                                
+                                <picture>
+                                    <source type="image/webp" srcset="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/off.webp, https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/off@2x.webp 2x">
+                                    <source type="image/png" srcset="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/off.png, https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/off@2x.png 2x">
+                                    <img src="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/off.png" srcset="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/off.png, https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/off@2x.png 2x" alt="Bosch Serie 8 Off Mode" width="980" height="552" class="lpMode__image lpMode__image--off">
+                                </picture>
+                                <picture>
+                                    <source type="image/webp" srcset="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/on.webp, https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/on@2x.webp 2x">
+                                    <source type="image/png" srcset="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/on.png, https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/on@2x.png 2x">
+                                    <img src="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/on.png" srcset="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/on.png, https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/on@2x.png 2x" alt="Bosch Serie 8 On Mode" width="980" height="552" class="lpMode__image lpMode__image--on">
+                                </picture>
+                                <img src="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/on-mobile-1.png" alt="Bosch Serie 8 On Mode" class="lpMode__image lpMode__image--mobile" width="900" height="376">
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- design -->
+                    <section class="lpDesign">
+                        <div class="lpWrapper">
+                            <div class="lpDesign__container">
+                                <div class="lpDesign__imageWrapper">
+                                    <picture>
+                                        <source type="image/webp" srcset="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/product.webp, https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/product@2x.webp 2x">
+                                        <source type="image/png" srcset="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/product.png, https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/product@2x.png 2x">
+                                        <img src="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/product.png" srcset="https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/product.png, https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/product@2x.png 2x" alt="Bosch Serie 8 pračka" width="514" height="686" class="lpDesign__image">
+                                    </picture>
+                                </div>
+                                <div class="lpDesign__textWrapper">
+                                    <h2 class="hdl2">Nejlépe hodnocený design</h2>
+                                    <ul class="lpListItems">
+                                        <li class="lpListItems__item">Ergonomicky nakloněný ovládací panel</li>
+                                        <li class="lpListItems__item">Nová designová linka s logem Bosch</li>
+                                        <li class="lpListItems__item">Digitální dotykový volič programů</li>
+                                        <li class="lpListItems__item">Nový design dveří (u sušiček možnost změny směru 
+                                            otevíraní)</li>
+                                        <li class="lpListItems__item">Perfektní designová shoda pračky se sušičkou</li>
+                                    </ul>
+                                    <a href="/nove-pracky-a-susicky-bosch-serie-8" class="btn btn--white"><span class="btn-text">Více informací</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- features -->
+                    <section class="lpFeatures">
+                        <div class="lpWrapper">
+                            <div class="lpFeatures__switcher">
+                                <div class="lpFeatures__switcher-tab lpFeatures__switcher-tab--active" data-product="bosch-pracky"><p class="perex"><strong>Pračky</strong></p></div>
+                                <div class="lpFeatures__switcher-tab" data-product="bosch-susicky"><p class="perex"><strong>Sušičky</strong></p></div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- footer -->
+                    <!--ShowArticle(24000)-->
+                </div>
+                <!-- TO REMOVE -->
+            </div>
+        </div>
+
+        <script src="build/js/script.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="build/css/style.min.css">
+
+    </body>
+
+</html>

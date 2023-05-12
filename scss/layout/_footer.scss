@@ -1,0 +1,24 @@
+#articlePage #landingpage{
+    .lpFooter{
+        background: color(gray, 9);
+
+        h2, p{
+            color: color(gray, 0);
+        }
+    }
+}
+
+// alza
+#articlePage #landingpage #newSocialContainer{
+    padding: 0;
+}
+
+// media
+@media only screen and (max-width: 550px){
+    .mobile #landingpage,
+    .mobileapp #landingpage{
+        .lpFooter{
+            padding-top: 20px;
+        }
+    }
+}

@@ -1,0 +1,70 @@
+#landingpage{
+    .lpDesign{
+        &__container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        &__imageWrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: calc(50% - 10px);
+        }
+
+        &__textWrapper{
+            text-align: left;
+            width: calc(50% - 10px);
+
+            .hdl2{
+                margin-bottom: 20px;
+            }
+            
+            .lpListItems{
+                &__item{
+                    color: color(gray, 0);
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 30px;
+                    padding-left: 24px;
+
+                    &::before{
+                        background: color(gray, 0);
+                        width: 6px;
+                        height: 6px;
+                        border-radius: 100%;
+                        top: 12px;
+                    }
+                }
+            }
+
+            .btn{
+                margin-top: 32px;
+            }
+        }
+    }
+}
+
+// media
+@media (width <= 650px) {
+    .mobile #landingpage,
+    .mobileapp #landingpage{
+        .lpDesign{
+            &__imageWrapper,
+            &__textWrapper{
+                width: 100%;
+            }
+
+            &__textWrapper{
+                .lpListItems{
+                    &__item{
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
