@@ -1,19 +1,20 @@
 const run_toggle = () => {
-  const listItems = document.querySelectorAll('.lpFeatures__switcher-tab');
+  const items = document.querySelectorAll('.lpFeatures__switcher-tab');
 
-  listItems.forEach((item) => {
+  items.forEach((item) => {
     item.addEventListener('click', (event) => {
-      const activeItem = document.querySelector('.lpFeatures__switcher-tab--active');
-      const clickedItem = event.target;
+      const active_item = document.querySelector('.lpFeatures__switcher-tab--active')
+      const clicked_item = event.target
   
-      if (!clickedItem.classList.contains('lpFeatures__switcher-tab--active')) {
-        activeItem?.classList.remove('lpFeatures__switcher-tab--active');
-        clickedItem.classList.add('lpFeatures__switcher-tab--active');
+      if (!clicked_item.classList.contains('lpFeatures__switcher-tab--active')) {
+        active_item?.classList.remove('lpFeatures__switcher-tab--active')
+        clicked_item.classList.add('lpFeatures__switcher-tab--active')
       }
   
-      const productData = clickedItem.dataset.product;
-      console.log(productData);
-    });
-  });  
+      const product = clicked_item.dataset.product
+      document.querySelector('.lpFeatures__model--active').classList.remove('lpFeatures__model--active')
+      document.querySelector('#landingpage .' + product).classList.add('lpFeatures__model--active')
+    })
+  })
 }
 run_toggle()

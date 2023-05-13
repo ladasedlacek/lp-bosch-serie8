@@ -1,0 +1,191 @@
+#landingpage{
+    .lpFeatures{
+        &__items{
+            display: flex;
+            flex-direction: column;
+            width: 24%;
+        }
+
+        &__item{
+            text-align: center;
+            margin-bottom: 50px;
+
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+
+            .perex{
+                color: color(gray, 0);
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+
+        &__line{
+            width: 100px;
+            height: 1px;
+            background-color: color(gray, 0);
+            position: relative;
+            left: 270px;
+            width: 200px;
+            top: 0px;
+            transform: rotate(6deg);
+
+            &::after{
+                content: "+";
+                color: color(gray, 0);
+                font-family: 'Roboto', sans-serif;
+                font-size: 40px;
+                font-weight: 700;
+                text-align: center;
+                line-height: 48px;
+                position: absolute;
+                right: -40px;
+                bottom: -20px; 
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                background-color: color(blue, 500);
+                transform: translate(5px, 2px) rotate(-6deg);
+                cursor: pointer;
+            }
+        }
+
+        &__items--left{
+            .lpFeatures__item{
+                &--1 .lpFeatures__line{
+                    width: 220px;
+                }
+
+                &--2 .lpFeatures__line,
+                &--3 .lpFeatures__line{
+                    width: 180px;
+                    left: 285px;
+                }
+
+                &--4 .lpFeatures__line{
+                    width: 240px;
+                    left: 250px;
+                }
+
+                &--5 .lpFeatures__line{
+                    width: 250px;
+                    left: 250px;
+                }
+            }
+        }
+
+        &__items--right{
+            .lpFeatures__item{
+                .lpFeatures__line{
+                    width: 130px;
+                    left: auto;
+                    right: 100px;
+                    transform: rotate(-186deg);
+
+                    &::after{
+                        transform: rotate(6deg);
+                    }
+                }
+
+                &--6 .lpFeatures__line{
+                    width: 140px;
+                }
+
+                &--7 .lpFeatures__line,
+                &--8 .lpFeatures__line{
+                    width: 150px;
+                }
+
+                &--9 .lpFeatures__line{
+                    width: 150px;
+                    right: 130px;
+                }
+            }
+        }
+
+        &__model.bosch-susicky{
+            .lpFeatures__items--right .lpFeatures__item--7 .lpFeatures__line, 
+            .lpFeatures__items--right .lpFeatures__item--8 .lpFeatures__line{
+                width: 90px;
+            }
+        }
+    }
+}
+
+// layout 0
+.layout-0 #landingpage{
+    .lpFeatures{
+        &__item{
+            margin-bottom: 40px;
+
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+
+        &__items--left{
+            .lpFeatures__item{
+                &--1 .lpFeatures__line{
+                    width: 130px;
+                    left: 210px;
+                }
+
+                &--2 .lpFeatures__line,
+                &--3 .lpFeatures__line{
+                    width: 130px;
+                    left: 225px;
+                }
+
+                &--4 .lpFeatures__line{
+                    width: 160px;
+                    left: 220px;
+                }
+
+                &--5 .lpFeatures__line{
+                    width: 170px;
+                    left: 200px;
+                }
+            }
+        }
+
+        &__items--right{
+            .lpFeatures__item{
+                &--6 .lpFeatures__line{
+                    width: 110px;
+                    right: 90px;
+                }
+
+                &--7 .lpFeatures__line,
+                &--8 .lpFeatures__line{
+                    width: 90px;
+                    right: 70px;
+                }
+
+                &--9 .lpFeatures__line{
+                    width: 80px;
+                    right: 90px;
+                }
+            }
+        }
+
+        &__model.bosch-susicky{
+            .lpFeatures__items--right .lpFeatures__item--9 .lpFeatures__line{
+                width: 100px;
+                right: 90px;
+            }
+        }
+    }
+}
+
+// media
+@media (width <= 980px){
+    .mobile #landingpage,
+    .mobileapp #landingpage{
+        .lpFeatures{
+            &__items{
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+#landingpage{
+    .lpFeatures{
+        &__container{
+            position: relative;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        &__model{
+            display: none;
+
+            &--active{
+                display: block;
+            }
+        }
+
+        picture{
+            flex: 1;
+        }
+
+        &__image{
+            margin: 0 auto;
+        }
+    }
+}
