@@ -1,0 +1,15 @@
+#landingpage{
+    .tooltip{
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .lpFeatures__line:hover + .tooltip {
+        display: block;
+    }
+}

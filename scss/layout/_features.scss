@@ -13,6 +13,10 @@
 
             &--active{
                 display: block;
+
+                img{
+                    animation: show .3s .3s forwards; 
+                }
             }
         }
 
@@ -21,7 +25,10 @@
         }
 
         &__image{
+            opacity: 0;
             margin: 0 auto;
         }
+
+        @include show;
     }
 }
