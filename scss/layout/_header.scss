@@ -2,7 +2,7 @@
     .lpHeader{
         min-height: 500px;
         position: relative;
-        background: url('https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/header.jpg') center no-repeat;
+        background: url('https://cdn.alza.cz/Foto/or/lp/bosch-serie-8/build/img/header-v4.jpg') center no-repeat;
         background-size: cover;
         display: flex;
         align-items: center;
@@ -14,8 +14,7 @@
         &__textWrapper{
             text-align: center;
             opacity: 0;
-            transform: translateY(60px);
-            animation: fade-in 1s .6s forwards;
+            animation: show 1.2s .6s forwards;
 
             .hdl3{
                 font-weight: 500;
@@ -23,16 +22,7 @@
             }
         }
 
-        @keyframes fade-in {
-            0% {
-              opacity: 0;
-              transform: translateY(60px);
-            }
-            100% {
-              opacity: 1;
-              transform: translateY(0);
-            }
-          }
+        @include show;
     }
 }
 

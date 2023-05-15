@@ -1,15 +1,14 @@
 #landingpage{
-    .tooltip{
+    .lpFeatures__tooltip{
         display: none;
         position: fixed;
         top: 0;
         left: 0;
         background-color: white;
-        padding: 5px;
-        border-radius: 5px;
-    }
-
-    .lpFeatures__line:hover + .tooltip {
-        display: block;
+        padding: 20px 24px;
+        border-radius: 4px;
+        z-index: 50;
+        width: 455px;
+        text-align: left;
     }
 }
