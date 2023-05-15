@@ -26,7 +26,7 @@ const run_tooltip = () => {
         hovered = true
       }
 
-      hovered === true ? 0 : add_content()
+      hovered ? 0 : add_content()
     })
   
     element.addEventListener('mouseleave', function() {
