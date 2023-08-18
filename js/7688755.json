@@ -1,0 +1,1042 @@
+{
+  "self": {
+    "href": "https://www.alza.cz/api/router/legacy/catalog/product/7688755?ucik=HAAGAQ&pgrik=mAAI&country=CZ",
+    "appLink": "catalogProductDetail",
+    "enabled": true
+  },
+  "accessories": [
+    {
+      "accessoryId": 5,
+      "groupName": "Záruka okamžité výměny",
+      "shortMobileName": null,
+      "groupId": 2,
+      "groupArticleUrl": "https://www.alza.cz/okamzita-vymena-art3716.htm",
+      "imageUrl": "https://cdn.alza.cz/Images/warranty-okamzitaVymena.png",
+      "name": "Záruka okamžité výměny",
+      "price": "3 719 Kč",
+      "pricePerItem": "3 719 Kč",
+      "articleId": 3716
+    },
+    {
+      "accessoryId": 133,
+      "groupName": "Pojištění prodloužené záruky",
+      "shortMobileName": null,
+      "groupId": 1,
+      "groupArticleUrl": "https://www.alza.cz/prodlouzena-zaruka",
+      "imageUrl": "https://cdn.alza.cz/Images/warranty-prodlouzenaZaruka.png",
+      "name": "Prodloužená záruka + 3 roky. Nejvýhodnější varianta.",
+      "price": "4 969 Kč",
+      "pricePerItem": "4 969 Kč",
+      "articleId": 2541
+    },
+    {
+      "accessoryId": 136,
+      "groupName": "Pojištění proti rozbití a krádeži",
+      "shortMobileName": null,
+      "groupId": 3,
+      "groupArticleUrl": "https://www.alza.cz/pojisteni-proti-rozbiti-a-kradezi",
+      "imageUrl": "https://cdn.alza.cz/Images/warranty-insurance-3.png",
+      "name": "Pojištění proti rozbití a krádeži na 2 roky",
+      "price": "3 099 Kč",
+      "pricePerItem": "3 099 Kč",
+      "articleId": 3996
+    }
+  ],
+  "advertisements": [],
+  "ageRestriction": null,
+  "amountInPack": 1.0000,
+  "articles": [],
+  "availabilityStatus": 1,
+  "awards": [
+    {
+      "imgUrl": "https://cdn.alza.cz/Foto/ImgGalery/awards/05_banner_195518_do_popisku_1195x200_AlzaExpress_CZ_1.jpg",
+      "altText": null,
+      "awardType": 1
+    },
+    {
+      "imgUrl": "https://cdn.alza.cz/Foto/ImgGalery/awards/2230249_Bosch_MDA_banner%20pra%C4%8Dka%20Serie%208%20Alza%20CZ%201195x200.jpg",
+      "altText": null,
+      "awardType": 1
+    },
+    {
+      "imgUrl": "https://cdn.alza.cz/",
+      "altText": null,
+      "awardType": 5
+    }
+  ],
+  "b2bDeal": null,
+  "breadcrumb": [
+    {
+      "category": {
+        "clientAction": {
+          "href": "https://www.alza.cz/api/catalog/v1/homePage/categories/18852758?pgri=mAAI&ui=HAAGAQ",
+          "appLink": "catalogLocalTitlePage",
+          "enabled": true
+        },
+        "name": "Velké spotřebiče",
+        "meta": {
+          "href": "https://www.alza.cz/services/restservice.svc/v1/category/18852758?t=SECTION",
+          "rel": [
+            "self"
+          ],
+          "method": "GET"
+        }
+      }
+    },
+    {
+      "category": {
+        "clientAction": {
+          "href": "https://www.alza.cz/services/restservice.svc/v1/category/18852774?t=CATEGORY",
+          "appLink": "catalogCategory",
+          "enabled": true
+        },
+        "name": "Pračky",
+        "meta": {
+          "href": "https://www.alza.cz/services/restservice.svc/v1/category/18852774?t=CATEGORY",
+          "rel": [
+            "self"
+          ],
+          "method": "GET"
+        }
+      }
+    }
+  ],
+  "buyback": null,
+  "canBuy": true,
+  "cashBackInfo": null,
+  "catalogNumber": "WGB256A0BY",
+  "categoryId": 18852774,
+  "code": "BOPR076",
+  "commodityLife": null,
+  "links": [
+    {
+      "id": 65621813,
+      "name": "Informační list",
+      "url": "https://dwn.alza.cz/files/infolist/7688755/101266934.pdf"
+    }
+  ],
+  "currency": "Kč",
+  "descriptionBeforeDiscountRichText": {
+    "text": "Nejnižší cena za 30 dní předcházejících zlevnění. <action name=\"terms\" />",
+    "actions": {
+      "terms": {
+        "href": "https://www.alza.cz/obchodni-podminky-art10.htm",
+        "appLink": "webView",
+        "name": "Podmínky a podrobnější informace",
+        "enabled": true
+      }
+    }
+  },
+  "descPageUrl": "https://m.alza.cz/descriptionpage?cCode=BOPR076",
+  "discussionPostCount": 1,
+  "extendedWarranty": null,
+  "freeDeliveryType": 4,
+  "giftAdvisor": null,
+  "icons": [
+    {
+      "text": "Energetická třída",
+      "image": "https://cdn.alza.cz/Foto/CommodityIcons/energy-label-a.svg",
+      "clickAction": {
+        "href": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-01.jpg",
+        "appLink": "webView",
+        "enabled": true
+      }
+    },
+    {
+      "text": "Design Award",
+      "image": "https://cdn.alza.cz/Foto/CommodityIcons/design-awards.svg",
+      "clickAction": null
+    },
+    {
+      "text": "Red Dot Design Award",
+      "image": "https://cdn.alza.cz/Foto/CommodityIcons/red-dot.svg",
+      "clickAction": null
+    }
+  ],
+  "id": 7688755,
+  "imgs": [
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/f3/BO/BOPR076.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/f4/BO/BOPR076.jpg",
+      "url": "https://cdn.alza.cz/Foto/f1/BO/BOPR076.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-01.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-01.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-01.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-02.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-02.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-02.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-03.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-03.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-03.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-04.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-04.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-04.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-05.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-05.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-05.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-06.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-06.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-06.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-07.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-07.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-07.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-08.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-08.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-08.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-09.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-09.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-09.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-10.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-10.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-10.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-11.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-11.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-11.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-12.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-12.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-12.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-13.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-13.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-13.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-14.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-14.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-14.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-15.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-15.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-15.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-16.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-16.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-16.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-17.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-17.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-17.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-18.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-18.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-18.jpg"
+    },
+    {
+      "bigUrl": "https://cdn.alza.cz/Foto/FotoAdd/BO/BOPR076-19.jpg",
+      "origUrl": "https://cdn.alza.cz/Foto/FotoAddOrig/BO/BOPR076-19.jpg",
+      "url": "https://cdn.alza.cz/Foto/FotoAddSmall/BO/BOPR076-19.jpg"
+    }
+  ],
+  "img": "https://cdn.alza.cz/Foto/f8/BO/BOPR076.jpg",
+  "ingredients": null,
+  "ingredientsPageUrl": null,
+  "isComparable": true,
+  "isDailySlasher": false,
+  "inStock": true,
+  "isMobileDevice": false,
+  "legalClause": null,
+  "currentIssueId": null,
+  "magazineIssues": [],
+  "threeDimensionalModel": {
+    "urlObjectGlb": null,
+    "urlObjectUsdz": null,
+    "tooltip": null
+  },
+  "name": "BOSCH WGB256A0BY Iron Assist  + záruka 10 let na motor",
+  "parameterGroups": [
+    {
+      "groupId": 5553,
+      "name": "Energetické parametry pračky 2021",
+      "isHierarchic": false,
+      "params": [
+        {
+          "name": "Energetická třída",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 239807499,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "A",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Vážená spotřeba energie",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 717076478,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "51,0000000000 kWh/100 c.",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Maximální kapacita pračky (program ECO 40-60)",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 718897945,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "10 kg",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Třída účinnosti odstřeďování",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 239807507,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "A",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Doba trvání (program ECO 40-60)",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 717076471,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "235 min (3,92 h)",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Emise hluku šířeného vzduchem",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 239807515,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "B",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Vážená spotřeba vody na cyklus",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 717076470,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "49 l",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        }
+      ],
+      "isGeoParam": false
+    },
+    {
+      "groupId": 43,
+      "name": "Rozměry pračky",
+      "isHierarchic": false,
+      "params": [
+        {
+          "name": "Velikost (hloubka)",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 38075,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Standardní (nad 50 cm)",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Hloubka",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 717076474,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "59 cm",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Šířka",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 717076473,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "59,8 cm",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Výška",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 717076475,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "84,5 cm",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        }
+      ],
+      "isGeoParam": false
+    },
+    {
+      "groupId": 550,
+      "name": "Vlastnosti",
+      "isHierarchic": false,
+      "params": [
+        {
+          "name": "Plnění",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 29,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Přední plnění",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Typ modelu",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 22441,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Samostatně stojící model",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Maximální otáčky při odstřeďování",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 717076469,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "1 600 ot/min",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        }
+      ],
+      "isGeoParam": false
+    },
+    {
+      "groupId": 13,
+      "name": "Funkce",
+      "isHierarchic": false,
+      "params": [
+        {
+          "name": "Funkce pračky",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 40217,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Parní program",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            },
+            {
+              "v": 0.0,
+              "id": 2174,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Invertorový motor",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            },
+            {
+              "v": 0.0,
+              "id": 2170,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Váhová automatika",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            },
+            {
+              "v": 0.0,
+              "id": 53,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Odložený start",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            },
+            {
+              "v": 0.0,
+              "id": 239241354,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Rychlý program",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            },
+            {
+              "v": 0.0,
+              "id": 51,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Displej",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            },
+            {
+              "v": 0.0,
+              "id": 239753633,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Přidání prádla v průběhu praní",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            },
+            {
+              "v": 0.0,
+              "id": 239704461,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Automatické dávkování",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            },
+            {
+              "v": 0.0,
+              "id": 2173,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Dětská pojistka",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            },
+            {
+              "v": 0.0,
+              "id": 239754880,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Zvukový signál ukončení programu",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Technologie pračky",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 239787600,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Aqua Stop",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            },
+            {
+              "v": 0.0,
+              "id": 239923349,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "i-DOS",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        }
+      ],
+      "isGeoParam": false
+    },
+    {
+      "groupId": 44,
+      "name": "Barva pračky",
+      "isHierarchic": false,
+      "params": [
+        {
+          "name": "Barva",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 21,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Bílá",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        }
+      ],
+      "isGeoParam": false
+    },
+    {
+      "groupId": 2362,
+      "name": "Ocenění ",
+      "isHierarchic": false,
+      "params": [
+        {
+          "name": "Ocenění",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 239866687,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Bez ocenění",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        }
+      ],
+      "isGeoParam": false
+    },
+    {
+      "groupId": 5573,
+      "name": "Ocenění za design",
+      "isHierarchic": false,
+      "params": [
+        {
+          "name": "Ocenění za design",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 239808274,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "iF Product Design Award",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            },
+            {
+              "v": 0.0,
+              "id": 239829228,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Red Dot Design Award",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        }
+      ],
+      "isGeoParam": false
+    },
+    {
+      "groupId": 4899,
+      "name": "Délka hadice",
+      "isHierarchic": false,
+      "params": [
+        {
+          "name": "Délka přívodní hadice",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 717076472,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "1,5 m",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        },
+        {
+          "name": "Délka odpadní hadice",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 717076476,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "1,5 m (1,5 m)",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        }
+      ],
+      "isGeoParam": false
+    },
+    {
+      "groupId": 45,
+      "name": "Hmotnost",
+      "isHierarchic": false,
+      "params": [
+        {
+          "name": "Hmotnost",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 717076477,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "82,6 kg",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        }
+      ],
+      "isGeoParam": false
+    },
+    {
+      "groupId": 2360,
+      "name": "Ocenění",
+      "isHierarchic": false,
+      "params": [
+        {
+          "name": "Ocenění",
+          "values": [
+            {
+              "v": 0.0,
+              "id": 239866687,
+              "artId": 0,
+              "cnt": 0,
+              "desc": "Bez ocenění",
+              "imgUrl": null,
+              "isImportant": false,
+              "note": null,
+              "enabled": null,
+              "selected": false,
+              "visibility": false
+            }
+          ]
+        }
+      ],
+      "isGeoParam": false
+    }
+  ],
+  "previewAudioBook": null,
+  "previewEpub": null,
+  "previewKindle": null,
+  "previewPdf": null,
+  "previewPdfReader": null,
+  "previewTrack": null,
+  "priceInfo": {
+    "priceWithoutVat": "25 612 Kč",
+    "delayedPaymentPriceWithVat": null,
+    "delayedPaymentRemainingPriceWithVat": null,
+    "instalmentPrice": "993 Kč",
+    "instalmentCount": 48,
+    "neoPriceWithVat": null,
+    "priceWithVat": "30 990 Kč",
+    "comparePrice": null,
+    "pricePrefix": null,
+    "pricePostfix": null,
+    "priceDescription": null,
+    "priceType": 1,
+    "headerText": null,
+    "headerIconUrl": null,
+    "priceSave": null,
+    "explanationPriceAction": null,
+    "unitPriceWithVat": "30 990 Kč",
+    "unitName": "ks",
+    "priceWithoutVatNoCurrency": 25611.5702,
+    "priceNoCurrency": 30990.00
+  },
+  "producerId": 1877,
+  "productVariantsInfo": null,
+  "productVariants": null,
+  "promos": [],
+  "quantityDiscounts": [],
+  "rating": 5.0,
+  "ratingCount": 2.0,
+  "ratingList": [
+    {
+      "count": 2,
+      "rating": 5
+    },
+    {
+      "count": 0,
+      "rating": 4
+    },
+    {
+      "count": 0,
+      "rating": 3
+    },
+    {
+      "count": 0,
+      "rating": 2
+    },
+    {
+      "count": 0,
+      "rating": 1
+    }
+  ],
+  "recommendedForRent": null,
+  "purchasedTogetherCarouselAction": null,
+  "alternativesCarouselAction": {
+    "href": "https://www.alza.cz/api/carousels/v1/commodities/7688755/alternatives?country=CZ&pgrik=mAAI&ucik=HAAGAQ",
+    "appLink": "carousel",
+    "enabled": true
+  },
+  "reviewsDetail": {
+    "href": "https://webapi.alza.cz/api/catalog/commodities/7688755/reviews?country=CZ",
+    "appLink": "reviewsDetail",
+    "enabled": true
+  },
+  "reviewStats": {
+    "href": "https://webapi.alza.cz/api/catalog/commodities/7688755/reviewStats?country=CZ",
+    "appLink": "reviewStats",
+    "enabled": true
+  },
+  "seoCategories": [
+    {
+      "id": 18852774,
+      "name": "Nejprodávanější, nejlepší automatické pračky",
+      "catType": "CATEGORY",
+      "catTypeId": 0
+    },
+    {
+      "id": 18852774,
+      "name": "Automatické pračky recenze",
+      "catType": "CATEGORY",
+      "catTypeId": 0
+    },
+    {
+      "id": 18852774,
+      "name": "Levné automatické pračky",
+      "catType": "CATEGORY",
+      "catTypeId": 0
+    },
+    {
+      "id": 18852774,
+      "name": "Levné automatické pračky Bosch",
+      "catType": "PRODUCER",
+      "catTypeId": 1877
+    },
+    {
+      "id": 18852774,
+      "name": "Automatické pračky",
+      "catType": "CATEGORY",
+      "catTypeId": 0
+    },
+    {
+      "id": 18852774,
+      "name": "Automatické pračky Bosch",
+      "catType": "PRODUCER",
+      "catTypeId": 1877
+    }
+  ],
+  "showGuaranteedShoppingLists": false,
+  "showUpsellDialog": true,
+  "spec": "Parní pračka - s předním plněním, energetická třída A, kapacita pračky (program ECO 40-60 °C) 10 kg, váž. spotřeba energie 51 kWh/100 cyklů, váž. spotřeba vody na cyklus 49 l, parní program, invertorový motor, váhová automatika, odložený start, rychlý program, displej, přidání prádla v průběhu praní, automatické dávkování, dětská pojistka a zvukový signál ukončení programu, Aqua Stop a i-DOS, 1600 ot/min při odstřeďování, rozměry 59,8 × 84,5 × 59 cm (Š×V×H) ",
+  "specParent": "Parní pračka - s předním plněním, energetická třída A, kapacita pračky (program ECO 40-60 °C) 10 kg, váž. spotřeba energie 51 kWh/100 cyklů, váž. spotřeba vody na cyklus 49 l, parní program, invertorový motor, váhová automatika, odložený start, rychlý program, displej, přidání prádla v průběhu praní, automatické dávkování, dětská pojistka a zvukový signál ukončení programu, Aqua Stop a i-DOS, 1600 ot/min při odstřeďování, rozměry 59,8 × 84,5 × 59 cm (Š×V×H) ",
+  "type": 0,
+  "url": "https://www.alza.cz/bosch-wgb256a0by-d7688755.htm",
+  "variantsParams": [],
+  "videoList": [],
+  "viewerProductInfo": {
+    "href": "https://www.alza.cz/api/%7BidentityType%7D/%7BidentityId%7D/catalog/products/7688755",
+    "appLink": "viewerProductInfo",
+    "enabled": true
+  },
+  "warranty": "24 měsíců",
+  "buyActionsAction": null,
+  "manuals": null
+}
