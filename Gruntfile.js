@@ -15,9 +15,6 @@ module.exports = function (grunt) {
         },
 
         svgstore: {
-            options: {
-                prefix : 'icon-', 
-            },
             default : {
               files: {
                 'build/img/sprite.svg' : ['img/sprite/*.svg'],
@@ -120,7 +117,6 @@ module.exports = function (grunt) {
     grunt.registerTask('js', ['clean', 'babel', 'uglify']);
     grunt.registerTask('img', ['image', 'cwebp', 'svgstore']);
     grunt.registerTask('webp', ['cwebp']);
-    grunt.registerTask('image', ['image']);
     grunt.registerTask('sprite', ['svgstore']);
     grunt.registerTask('default', ['css', 'js', 'watch']);
 };
